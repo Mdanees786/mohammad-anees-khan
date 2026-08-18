@@ -14,7 +14,7 @@ void pop(){
     vec.pop_back();
 }
 int top(){
-    if(!isepty()){
+    if(isempty()){
         cout<<"stack empty"<<endl;
         return -1;
     }
