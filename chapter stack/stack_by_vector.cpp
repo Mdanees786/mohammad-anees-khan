@@ -10,6 +10,7 @@ vec.push_back(val);
 void pop(){
     if(isempty()){
         cout<<"stack is empty"<<endl;
+        return;
     }
     vec.pop_back();
 }
